@@ -1,6 +1,7 @@
 # Diagnosing Revenue Growth Deceleration in a Multi-Market SaaS Business
 
-A business intelligence case study: a root-cause analysis of why revenue growth slowed from **36.7% to 8.2% year on year** in Q4 2025, using Tableau, SQL and Google Sheets.
+This is a root cause analysis of why revenue growth in a 6 month span for tripla--a b2b company that sells booking technology. Revenue slowed from **36.7% to 8.2% year on year** in Q4 2025, presented in 2026. Analysis was done using Tableau, SQL and Google Sheets. 
+All data is synthetic and does not present actual figures.
 
 ## Presentation
 
@@ -97,16 +98,6 @@ A prioritised investigation, each with the data needed, diagnostic KPIs and reco
 - **Short hotel history.** Hotel data starts in 2024-Q4, giving one year-on-year comparison.
 - **Estimated hotel ADR.** The hotel table assumes 1.9 room-nights per booking, so hotel-level ADR was not used.
 - **Channels aren't split by market**, so channel trends can't be isolated to Japan.
-
-## My contribution
-
-This was an individual project. I:
-
-- explored and validated the data in Google Sheets, recalculating rates from totals;
-- wrote the SQL queries;
-- built the drill-down analysis (market → metric → channel → hotel) in Tableau;
-- designed the driver tree and the prioritised investigation plan in Miro;
-- wrote the 2-page root-cause report and presented it.
 
 ## Repository contents
 
