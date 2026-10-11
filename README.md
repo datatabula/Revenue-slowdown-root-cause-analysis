@@ -8,7 +8,7 @@ A business intelligence case study: a root-cause analysis of why revenue growth 
 
 *5-minute walkthrough of the analysis and recommendations. Click to watch on YouTube.*
 
-📄 [Full 2-page report (PDF)](report.pdf)
+📄 [Full 2-page report (PDF)](RCA_analysis_2pager.pdf)
 
 ## Executive summary
 
@@ -41,19 +41,19 @@ Revenue growth fell 28.5 points, matched almost exactly by gross bookings (−27
 
 ### 2. Japan drove the slowdown
 
-![Which market drove the Q4 slowdown?](images/market.png)
+![Which market drove the Q4 slowdown?](images/Dashboard%201.png)
 
 Japan fell 27% in Q4, against a normal Q4 dip of about 4% the year before, and accounts for 93% of the total drop.
 
 ### 3. Inside Japan, fewer bookings came in
 
-![What weakened inside Japan?](images/japan.png)
+![What weakened inside Japan?](images/Dashboard%202.png)
 
 Gross bookings fell 28% and net bookings fell by a similar amount. ADR and the cancellation rate stayed flat.
 
 ### 4. The decline is outside the 7 named hotels
 
-![Is Japan's decline spread across its hotels?](images/hotels.png)
+![Is Japan's decline spread across its hotels?](images/Dashboard%203.png)
 
 The 7 named hotels grew 13% (¥53.4M → ¥60.5M), while the rest of Japan fell 40% (¥156.3M → ¥93.5M).
 
@@ -75,6 +75,8 @@ A prioritised investigation, each with the data needed, diagnostic KPIs and reco
 **Quick win:** a per-hotel alert when monthly bookings fall well below that hotel's normal level for the season.
 
 **Also watch Indonesia:** gross bookings keep growing, but the cancellation rate doubled to about 20%, so net bookings stalled. It didn't cause the Q4 slowdown, but it's getting worse.
+
+![Are cancellations eating into Indonesia's growth?](images/Dashboard%204.png)
 
 ## Dataset
 
@@ -110,14 +112,15 @@ This was an individual project. I:
 
 ```
 ├── README.md
-├── report.pdf
+├── RCA_analysis_2pager.pdf
 ├── sql/
 │   └── analysis.sql
 └── images/
     ├── table.png
-    ├── market.png
-    ├── japan.png
-    ├── hotels.png
+    ├── Dashboard 1.png   (market)
+    ├── Dashboard 2.png   (inside Japan)
+    ├── Dashboard 3.png   (hotels)
+    ├── Dashboard 4.png   (Indonesia)
     ├── driver-tree.gif
     └── next-steps-and-recommendations.gif
 ```
